@@ -2,6 +2,6 @@
 #include <stdarg.h>
 
 static inline void logger(char* message){
-    pfrintf("log: %s\n", message);
+    printf("log: %s\n", message);
 }
 
