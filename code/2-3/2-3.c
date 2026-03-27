@@ -10,10 +10,10 @@ int main(){
     int len = strlen(a);
     printf("length of a: %d\n", len);
 
-    strcpy(c, b);
+    strcpy(c, a);
     printf("a: %s, c: %s\n", a, c);
 
-    strcpy(c, a);
+
     strcat(c, " ");
     strcat(c, b);
     printf("c: %s\n", c);
