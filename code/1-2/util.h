@@ -4,3 +4,4 @@
 static inline void logger(char* message){
     pfrintf("log: %s\n", message);
 }
+
